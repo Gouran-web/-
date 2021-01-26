@@ -1,0 +1,87 @@
+const dicData = [{
+    label: '开启',
+    value: 'true'
+}, {
+    label: '关闭',
+    value: 'false'
+}]
+export const list = [ {
+    key: 'showColor',
+    commit: 'SET_SHOWCOLOR'
+}, {
+    key: 'showLock',
+    commit: 'SET_SHOWLOCK'
+}, {
+    key: 'showDebug',
+    commit: 'SET_SHOWDEBUG'
+}, {
+    key: 'showFullScren',
+    commit: 'SET_SHOWFULLSCREN'
+}, {
+    key: 'showCollapse',
+    commit: 'SET_SHOWCOLLAPSE'
+}, {
+    key: 'showMenu',
+    commit: 'SET_SHOWMENU'
+}]
+export const option = (safe) => {
+    const _safe = safe;
+    return {
+        submitBtn: false,
+        column: [ {
+            label: '主题',
+            prop: 'showTheme',
+            type: 'switch',
+            span: 24,
+            dicData: dicData,
+            click: ({ column }) => {
+                _safe.set(column.prop);
+            }
+        }, {
+            label: '主题色',
+            prop: 'showColor',
+            type: 'switch',
+            span: 24,
+            dicData: dicData,
+            click: ({ column }) => {
+                _safe.set(column.prop);
+            }
+        }, {
+            label: '全屏',
+            prop: 'showFullScren',
+            type: 'switch',
+            span: 24,
+            dicData: dicData,
+            click: ({ column }) => {
+                _safe.set(column.prop);
+            }
+        }, {
+            label: '锁屏',
+            prop: 'showLock',
+            type: 'switch',
+            span: 24,
+            dicData: dicData,
+            click: ({ column }) => {
+                _safe.set(column.prop);
+            }
+        }, {
+            label: '缩放',
+            prop: 'showCollapse',
+            type: 'switch',
+            span: 24,
+            dicData: dicData,
+            click: ({ column }) => {
+                _safe.set(column.prop);
+            }
+        }, {
+            label: '顶部菜单',
+            prop: 'showMenu',
+            type: 'switch',
+            span: 24,
+            dicData: dicData,
+            click: ({ column }) => {
+                _safe.set(column.prop);
+            }
+        }]
+    }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "1530166",
+  "name": "智能模型",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "智能模型",
+  "glyphs": [
+    {
+      "icon_id": "526005",
+      "name": "注册",
+      "font_class": "-zhuce",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "1076242",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "1790013",
+      "name": "报表",
+      "font_class": "-baobiao",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    },
+    {
+      "icon_id": "6183280",
+      "name": "解锁",
+      "font_class": "jiesuo",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "6540838",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "7549833",
+      "name": "指标",
+      "font_class": "-zhibiao",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "7649362",
+      "name": "suoping",
+      "font_class": "suoping",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "7674900",
+      "name": "历史",
+      "font_class": "-lishi",
+      "unicode": "e718",
+      "unicode_decimal": 59160
+    },
+    {
+      "icon_id": "9424873",
+      "name": "模型运行",
+      "font_class": "-yunxing",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "9833315",
+      "name": "研判模型",
+      "font_class": "-zhinengmoxing",
+      "unicode": "e917",
+      "unicode_decimal": 59671
+    }
+  ]
+}
